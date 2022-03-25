@@ -4,4 +4,23 @@
 }
 .product{
     border: 1px solid grey;
+    position: relative;
+}
+.cart-btn{
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    background-color: LightPink;
+    cursor: pointer;
+    font-size: 14px;
+}
+.cart-btn:hover{
+    opacity: 0.8;
+}
+.cart-btn p{
+    margin-right: 8px;
 }
