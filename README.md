@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Makeup zone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Makeup Zone](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
