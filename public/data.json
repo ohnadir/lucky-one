@@ -1,0 +1,62 @@
+[
+    {
+    "name":"Lippie Pencil",
+    "id":"101",
+    "img":"https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769",
+    "price":"120"
+},
+{
+    "name":"CoverGirl LashBlast Fusion Mascara ",
+    "id":"102",
+    "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/fcd915ee80b8b9cfaa71225020b8df3b_ra,w158,h184_pa,w158,h184.jpg",
+    "price":"120" 
+},
+{
+    "name":"Lippie Stix Kit in Ultra",
+    "id":"103",
+    "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/16ace93b48cdc67bb76c81eaec10ff45_ra,w158,h184_pa,w158,h184.jpg",
+    "price":"120" 
+},
+{
+    "name":"colourpop",
+    "id":"104",
+    "img":	"https://cdn.shopify.com/s/files/1/1338/0845/collections/blottedlip-lippie-stix_grande.jpg?v=1512588803",
+    "price":"120" 
+},
+{
+    "name":"Volumizing Mascara",
+    "id":"105",
+    "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/65c2bc9cc03b915be08e68b8e4acb919_ra,w158,h184_pa,w158,h184.jpeg",
+    "price":"120" 
+},
+{
+    "name":"Custom Shadow & Liner",
+    "id":"106",
+    "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/9cd3466b7ce77448e4fd11338f0d7f20_ra,w158,h184_pa,w158,h184.jpeg",
+    "price":"120" 
+},
+{
+    "name":"Liquid Liner",
+    "id":"107",
+    "img":	"https://www.purpicks.com/wp-content/uploads/2018/06/Zorah-Biocosmetiques-Liquid-Liner.png",
+    "price":"120" 
+},
+{
+    "name":"Eyeshadow",
+    "id":"108",
+    "img":"https://www.purpicks.com/wp-content/uploads/2018/02/Ombre-Amazonie-CC.png",
+    "price":"120" 
+},
+{
+    "name":" Realist Invisible Setting Powder",
+    "id":"109",
+    "img":"https://www.purpicks.com/wp-content/uploads/2018/06/w3llpeople-Realist-Invisible-Setting-Powder.jpg",
+    "price":"120" 
+},
+{
+    "name":" B Smudged",
+    "id":"110",
+    "img":"https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Smudged-1.jpg",
+    "price":"120" 
+}
+]

@@ -1,0 +1,7 @@
+.product img{
+    width: 300px;
+    margin: 0 auto;
+}
+.product{
+    border: 1px solid grey;
+}
