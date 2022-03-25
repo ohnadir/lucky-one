@@ -1,0 +1,46 @@
+.cart{
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    width: 250px;
+}
+.cart .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart .choose-btn{
+    border: 1px solid green;
+    color: green;
+    padding: 14px 16px;
+    width: 50%;
+    margin-bottom: 8px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+.cart .filter-btn{
+    border: 1px solid purple;
+    color: purple;
+    padding: 14px 16px;
+    width: 50%;
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+.cart-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.cart-info p{
+    margin: 0 15px;
+}
+.cart-info button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.cart-info img{
+    width: 50px;
+    border-radius: 50%;
+}
