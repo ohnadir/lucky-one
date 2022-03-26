@@ -28,6 +28,7 @@ const Cart = (props) => {
     const clearCart = () => {
         let newArray = [];
         setItem(newArray);
+        item.length = 0;
     }
     // filter for me 
     const filterForMe = () => {
@@ -49,7 +50,13 @@ const Cart = (props) => {
                 
             </div>
             <h5>Selected Products</h5>
-            {item.map(product => <CardInfo product={product} key={product.id}></CardInfo>)}
+
+            {item.map(product => <CardInfo
+                product={product}
+                key={product.id}
+                removeItem={removeItem}
+            ></CardInfo>)}
+            
             <div className="btn">
                 <button onClick={filterForMe}  className='filter-btn'>Filter for Me</button>
                 <button onClick={clearCart}  className='choose-btn'>Choose Again</button>
