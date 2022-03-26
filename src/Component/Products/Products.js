@@ -17,9 +17,7 @@ const Products = () => {
         setCart(newCart);  
     }
     return (
-        <div className='containers'>
-            <h4>Total Products : {products.length}</h4>
-            <div className="products">
+        <div className='products'>
                 <div className="products-container">
                     {
                         products.map(product => <Product
@@ -32,7 +30,6 @@ const Products = () => {
                 <div className='cart-container'>
                     <Cart cart={cart} setCart={setCart}></Cart>
                 </div>
-            </div>
         </div>
     );
 };
