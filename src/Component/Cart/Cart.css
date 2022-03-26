@@ -10,24 +10,6 @@
     align-items: center;
     width: 100%;
 }
-.cart-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 8px;
-}
-.cart-info p{
-    margin: 0 15px;
-}
-.cart-info .trash{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-.cart-info img{
-    width: 50px;
-    border-radius: 50%;
-}
 .cart .choose-btn{
     border: 1px solid green;
     color: green;
