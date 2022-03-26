@@ -14,26 +14,24 @@ const Products = () => {
     const handleAddToCar = (selectedProduct) => {
         let newCart = [];
         newCart = [...cart, selectedProduct];
-        if (newCart >= 4) {
-            return (alert('You seleted to much product'));
-        } else {
-            setCart(newCart);
-        }
-        
+        setCart(newCart);
     }
     return (
-        <div className='products'>
-            <div className="products-container">
-                {
-                    products.map(product => <Product
-                        key={product.id}
-                        product={product}
-                        handleAddToCar={handleAddToCar}
-                    ></Product>)
-                }
-            </div>
-            <div className='cart-container'>
-                <Cart cart={cart}> </Cart>
+        <div className='containers'>
+            <h4>Total Products : {products.length}</h4>
+            <div className="products">
+                <div className="products-container">
+                    {
+                        products.map(product => <Product
+                            key={product.id}
+                            product={product}
+                            handleAddToCar={handleAddToCar}
+                        ></Product>)
+                    }
+                </div>
+                <div className='cart-container'>
+                    <Cart cart={cart}> </Cart>
+                </div>
             </div>
         </div>
     );

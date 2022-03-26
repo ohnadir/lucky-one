@@ -21,10 +21,12 @@
     background-color: LightPink;
     cursor: pointer;
     font-size: 14px;
+    padding: 10px;
 }
 .cart-btn:hover{
     opacity: 0.8;
 }
 .cart-btn p{
-    margin-right: 8px;
+    margin-bottom: 0;
+    margin-right: 12px;
 }

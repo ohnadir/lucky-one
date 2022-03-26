@@ -16,6 +16,10 @@
     position: sticky;
     top : 0;
 }
+.containers h4{
+    text-align: center;
+    margin: 20px 0;
+}
 @media screen and (max-width:1100px) {
     .products-container{
         grid-template-columns: 4fr 1fr;
