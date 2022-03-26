@@ -3,61 +3,60 @@
     "name":"Natural Eye Pencil",
     "id":"101",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/b2c0bdd88398baadd69b710d27893ca2_ra,w158,h184_pa,w158,h184.jpeg",
-    "price":"120",
-    "quantity":"10"
+    "price":"120"
 },
 {
     "name":"Mascara Brush",
     "id":"102",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/fcd915ee80b8b9cfaa71225020b8df3b_ra,w158,h184_pa,w158,h184.jpg",
-    "price":"120" 
+    "price":"110" 
 },
 {
     "name":"Lippie Stix ",
     "id":"103",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/16ace93b48cdc67bb76c81eaec10ff45_ra,w158,h184_pa,w158,h184.jpg",
-    "price":"120" 
+    "price":"50" 
 },
 {
     "name":"Eye Brightener",
     "id":"104",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/5e2dd70493281c257ad9e77b8840d570_ra,w158,h184_pa,w158,h184.jpg",
-    "price":"120" 
+    "price":"90" 
 },
 {
     "name":"Volumizing Mascara",
     "id":"105",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/65c2bc9cc03b915be08e68b8e4acb919_ra,w158,h184_pa,w158,h184.jpeg",
-    "price":"120" 
+    "price":"20" 
 },
 {
     "name":"Shadow & Liner",
     "id":"106",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/9cd3466b7ce77448e4fd11338f0d7f20_ra,w158,h184_pa,w158,h184.jpeg",
-    "price":"120" 
+    "price":"70" 
 },
 {
     "name":"Liquid Liner",
     "id":"107",
     "img":	"https://www.purpicks.com/wp-content/uploads/2018/06/Zorah-Biocosmetiques-Liquid-Liner.png",
-    "price":"120" 
+    "price":"40" 
 },
 {
     "name":"Eyeshadow",
     "id":"108",
     "img":"https://www.purpicks.com/wp-content/uploads/2018/02/Ombre-Amazonie-CC.png",
-    "price":"120" 
+    "price":"50" 
 },
 {
     "name":" Realist Invisible Powder",
     "id":"109",
     "img":"https://www.purpicks.com/wp-content/uploads/2018/06/w3llpeople-Realist-Invisible-Setting-Powder.jpg",
-    "price":"120" 
+    "price":"70" 
 },
 {
     "name":" B Smudged",
     "id":"110",
     "img":"https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Smudged-1.jpg",
-    "price":"120" 
+    "price":"110" 
 }
 ]

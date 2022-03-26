@@ -30,3 +30,14 @@
     margin-bottom: 0;
     margin-right: 12px;
 }
+@media screen and (max-width:576px){
+    .product {
+        width: 350px;
+        margin:auto ;
+    }
+}
+@media screen and (max-width: 768px){
+    .product{
+        width: 350px;
+    }
+}

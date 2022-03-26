@@ -17,6 +17,7 @@ const Cart = (props) => {
         }
         
     }, [cart]);
+    
     // remove Item 
     const removeItem = (productToRemove) => {
         setItem(
@@ -37,7 +38,6 @@ const Cart = (props) => {
         }
         
     }
-    console.log(filterItem);
     return (
         
         <div className='cart'>

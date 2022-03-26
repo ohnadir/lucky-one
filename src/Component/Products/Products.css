@@ -5,8 +5,6 @@
     padding-right: 10px;
     
 }
-.products-container{
-}
 .products{
     display: flex;
     justify-content: center;
@@ -20,11 +18,21 @@
     text-align: center;
     margin: 20px 0;
 }
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
     .products-container{
         grid-template-columns: 4fr 1fr;
     }
-    .cart-container{
-        
+}
+@media screen and (max-width: 768px){
+    .products-container{
+        grid-template-columns: 2fr;
+    }
+}
+@media screen and (max-width:576px){
+    .products{
+        flex-direction: column-reverse;
+    }
+    .products-container{
+        grid-template-columns: 1fr;
     }
 }

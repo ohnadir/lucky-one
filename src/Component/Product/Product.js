@@ -7,7 +7,6 @@ const Product = (props) => {
     const { handleAddToCar } = props;
     return (
         <div className='product'>
-            
             <img src={img} alt="" />
             <div className="product-info">
                 <h3>{name}</h3>
