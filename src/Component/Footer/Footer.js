@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Accordion } from 'react-bootstrap';
 const Footer = () => {
     return (
-        <div>
+        <div className='accordion'>
             <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Props Vs State</Accordion.Header>
@@ -17,15 +18,12 @@ const Footer = () => {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-                <Accordion.Header>Accordion Item #2</Accordion.Header>
+                <Accordion.Header>how useState works</Accordion.Header>
                 <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                est laborum.
+                        ইউজস্টেইট একটি হুক যা ফাংশনাল কম্পোনেন্টে স্টেইট ভেরিয়েবলকে গ্রহন করে । যদি প্রাথমিক স্টেইট ফাংশনে পাস করা হয় তাহলে ইহা ভেরিয়েবলের সাথে চলতি স্টেইট
+                        ভেলু ফেরত দেয় এবং অনন্য ফাংশনে ভেলু আপডেইট করে । প্রাথমিক রেন্ডারের সময় প্রথম আরগুমেন্ট এ সেইম ভেলু রেটার্ন করে । পশ্চাদ্গামী রি -রেন্ডারের সময়ে
+                        প্রথম ভেলু সব সময় আপডেইট পরে মোস্ট রিসেন্ট স্টেইট হয় । ইউজস্টেইট কখনই স্বয়ংক্রিয়ভাবে মার্জ অবজেক্ট আপডেইট করে না সেটার ব্যবহার পুনরাবৃত্তি করা যায় 
+                        অবজেক্ট স্প্রেড সিনট্যাক্সের মাধ্যমে ।
                 </Accordion.Body>
             </Accordion.Item>
             </Accordion>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
-// import CartInfo from '../CartInfo/CartInfo';
+import CardInfo from '../CardInfo/CardInfo';
 const Cart = (props) => {
     const { cart } = props;
     const [item, setItem] = useState([]);
@@ -11,13 +11,12 @@ const Cart = (props) => {
     useEffect(() => {
         const items = cart;
         if (item.length === 4) {
-            alert('You are selected too much product');
+            alert('Oops you already select 4 products');
         } else {
             setItem(items);
         }
-        
     }, [cart]);
-    
+
     // remove Item 
     const removeItem = (productToRemove) => {
         setItem(
@@ -50,20 +49,7 @@ const Cart = (props) => {
                 
             </div>
             <h5>Selected Products</h5>
-            {
-                item.map(product => {
-                    return (
-                        <div className='cart-info'>
-                            <img src={product.img} alt="" />
-                            <p>{product.name}</p>
-                            
-                            <button className='trash' onClick={()=> removeItem(product)}>
-                                <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
-                            </button>
-                        </div>
-                    )
-                })
-            }
+            {item.map(product => <CardInfo product={product} key={product.id}></CardInfo>)}
             <div className="btn">
                 <button onClick={filterForMe}  className='filter-btn'>Filter for Me</button>
                 <button onClick={clearCart}  className='choose-btn'>Choose Again</button>

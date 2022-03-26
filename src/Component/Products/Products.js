@@ -14,7 +14,7 @@ const Products = () => {
     const handleAddToCar = (selectedProduct) => {
         let newCart = [];
         newCart = [...cart, selectedProduct];
-        setCart(newCart);
+        setCart(newCart);  
     }
     return (
         <div className='containers'>
