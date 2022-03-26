@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import CardInfo from '../CardInfo/CardInfo';
 const Cart = (props) => {
-    const { cart } = props;
+    const { cart, setCart } = props;
     const [item, setItem] = useState([]);
     const [filterItem, setFilterItem] = useState([]);
-
     useEffect(() => {
         const items = cart;
         if (item.length === 4) {
@@ -27,6 +24,7 @@ const Cart = (props) => {
 
     // clear all selected data;
     const clearCart = () => {
+        setCart([]);
         let newArray = [];
         setItem(newArray);
         item.length = 0;
@@ -36,6 +34,7 @@ const Cart = (props) => {
         if (item.length !== 0) {
             const filter = item[(Math.floor(Math.random() * item.length))];
             setFilterItem(filter);
+            item.length = 0;
         }
         
     }
