@@ -22,6 +22,7 @@ const Cart = (props) => {
         setItem(
             item.filter((product) => product !== productToRemove)
         );
+        item.length = 0;
     }
 
     // clear all selected data;
