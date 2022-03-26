@@ -3,7 +3,8 @@
     "name":"Natural Eye Pencil",
     "id":"101",
     "img":"https://d3t32hsnjxo7q6.cloudfront.net/i/b2c0bdd88398baadd69b710d27893ca2_ra,w158,h184_pa,w158,h184.jpeg",
-    "price":"120"
+    "price":"120",
+    "quantity":"10"
 },
 {
     "name":"Mascara Brush",
